@@ -13,7 +13,7 @@ if [ "$sdk_version" == "1.0.1" ]; then
     url=https://go.microsoft.com/fwlink/?LinkID=825888
 elif [ "$sdk_version" == "1.1.0" ]; then
     ver=1.1.0-preview1-001100-00
-    uri=https://dotnetcli.blob.core.windows.net/dotnet/release/1.1.0/Binaries/$ver/dotnet-$os-$arch.$ver.tar.gz
+    url=https://dotnetcli.blob.core.windows.net/dotnet/release/1.1.0/Binaries/$ver/dotnet-$os-$arch.$ver.tar.gz
 else
     echo "unknown version"
     exit 1
